@@ -97,4 +97,4 @@ replace country="" if country==""
 replace country="" if country=="" |country==""
 replace country="" if country=="" | country=="" | country==""
 
-merge m:1 country using "C:\Users\wangy\Desktop\stata代码\国家名称统一\country-iso"
+merge m:1 country using country-iso
